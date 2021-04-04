@@ -1,0 +1,13 @@
+.rainbow {
+    -webkit-animation: hueanimation 10s infinite linear;
+    color: rgb(255, 255, 0);
+}
+
+@keyframes hueanimation {
+    from {
+        -webkit-filter: hue-rotate(0deg)
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg)
+    }
+}
